@@ -1,0 +1,25 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "noahhuetter@gmail.com",
+    "longName": "T-Watch",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[0-9:;]",
+                "file": "fonts/MuseoSans_500.ttf",
+                "name": "FONT_MUSEO_SANS_42",
+                "type": "font"
+            }
+        ]
+    },
+    "shortName": "T-Watch",
+    "uuid": "485c38b8-d107-45e3-8fc1-7f357e1fff65",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
