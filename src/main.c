@@ -19,15 +19,15 @@ void window_unload(Window *window)
 void window_load(Window *window)
 {
   //Load font
-  ResHandle font_handle = resource_get_handle(FONT_MUSEO_SANS_42);
+  ResHandle font_handle = resource_get_handle(FONT_MUSEO_42);
   
   //We will add the creation of the Window's elements here soon!
   watch_layer = text_layer_create(GRect(0, 0, 144, 168));
   text_layer_set_background_color(watch_layer, GColorBlack);
   text_layer_set_text_color(watch_layer, GColorWhite);
   text_layer_set_text_alignment(watch_layer, GTextAlignmentCenter);
-  //text_layer_set_font(watch_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_LIGHT));
-  text_layer_set_font(watch_layer, fonts_load_custom_font(font_handle));
+  text_layer_set_font(watch_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_LIGHT));
+  //text_layer_set_font(watch_layer, fonts_load_custom_font(font_handle));
   
 
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(watch_layer));

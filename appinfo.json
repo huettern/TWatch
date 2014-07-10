@@ -10,7 +10,7 @@
             {
                 "characterRegex": "[0-9:;]",
                 "file": "fonts/MuseoSans_500.ttf",
-                "name": "FONT_MUSEO_SANS_42",
+                "name": "FONT_MUSEO_42",
                 "type": "font"
             }
         ]
