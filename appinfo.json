@@ -1,16 +1,43 @@
 {
-    "appKeys": {},
+    "appKeys": {
+        "KEY_DESCRIPTION": 2,
+        "KEY_LOCATION": 0,
+        "KEY_TEMPERATURE": 1
+    },
     "capabilities": [
-        ""
+        "location"
     ],
     "companyName": "noahhuetter@gmail.com",
     "longName": "T-Watch",
     "resources": {
         "media": [
             {
-                "characterRegex": "[0-9:;]",
+                "file": "images/Battery.png",
+                "name": "IMG_BAT_BASE",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/imagine.ttf",
+                "name": "FONT_IMAGINE_42",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/AdventPro-Light.ttf",
+                "name": "FONT_ADVENT_60",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/timeburner_regular.ttf",
+                "name": "FONT_TIMEBURNER_50",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:]",
                 "file": "fonts/MuseoSans_500.ttf",
-                "name": "FONT_MUSEO_42",
+                "name": "FONT_MUSEO_SANS_55",
                 "type": "font"
             }
         ]
